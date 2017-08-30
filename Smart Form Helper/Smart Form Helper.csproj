@@ -148,6 +148,16 @@
       <DependentUpon>SettingsForm.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\notes\build-menu.png" />
+    <Content Include="..\notes\configuration.png" />
+    <Content Include="..\notes\empty.png" />
+    <Content Include="..\notes\file-menu.png" />
+    <Content Include="..\notes\filled-in.png" />
+    <Content Include="..\README.md">
+      <Link>README.md</Link>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
